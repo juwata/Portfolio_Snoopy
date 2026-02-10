@@ -1,0 +1,127 @@
+
+body {
+  background-color: #111; 
+  color: #333; 
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+header {
+  text-align: center;
+}
+
+
+main {
+  font-family: Arial, sans-serif;
+  width: 1000px;
+  margin: 50px auto; 
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-color: rgb(24, 23, 23);
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+
+img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+#textoeFoto {
+  display: flex;
+}
+
+p {
+  margin-left: 20px;
+  text-align: justify
+}
+
+#menu {
+  background-color: rgb(112, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  margin-bottom: 100px;
+  padding: 10px 20px;
+}
+
+input {
+  height: 20px;
+  margin-right: 10px;
+  background-color: white;
+  color: black;
+      border-radius: 30px;
+      border-color: red;
+
+}
+
+img {
+  width: 290px;
+  height: 384px;
+}
+
+h4 {
+  margin-top: 30px;
+  text-align: justify;
+  height: 10px;
+  color: rgb(255, 255, 255);
+}
+
+table {
+  margin: 0 auto;
+  background-color: #111;
+  color: white;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+button {
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: black;
+  color: blueviolet;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  width: 15%;
+  margin: auto auto 0 auto;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
+
+label{
+  color: rgb(112, 0, 0);
+}
+
+#eu img {
+  display: block;
+  margin: 0 auto;
+  border-color: #ffffff;
+  border-radius: 30px;
+}
