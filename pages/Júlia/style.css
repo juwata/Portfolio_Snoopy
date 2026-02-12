@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+::-webkit-scrollbar {display: none}
+    
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 200 0.9em "Poppins";
+    width: 100%;
+    height: 100vh;
+}
+
+
+div.container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+div.slides {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+    scroll-snap-align: start;
+}
+
+
+#slide01 > #imgEu {
+    border-radius: 50px 0;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+#slide01 > p {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#slide01 {background: linear-gradient(454deg, #17141D, #0d0b11)}
+#slide02 {background: linear-gradient(454deg, #B11226, #7d0d1c)}
+#slide03 {background: linear-gradient(454deg, #132937, #09131a)}
+#slide04 {background: linear-gradient(454deg, #2F4538, #213027)}
+
+#slide05 {
+    background: url("gato01.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+
+h1 {font: 600 2.5em "Poppins"}
+h2 {font: 600 1.7em "Poppins"}
+h1, h2 {text-shadow: 0 0 20px rgba(255, 255, 255, 0.2)}
+
+img {width: 400px}
+
+#gato02 {
+    transition: all 500ms;
+    width: 250px;
+    position: fixed;
+    bottom: 0;
+    left: -82px;
+}
+
+#gato02:hover {
+    bottom: 12px;
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.2));
+    transform: scale(1.1);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {text-decoration: underline}

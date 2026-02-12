@@ -1,0 +1,84 @@
+body{
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(222, 220, 220);
+    margin: 0;
+}
+
+header{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+}
+
+#logo{
+    height: 50px;
+}
+
+.voltar{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.voltar:hover{
+    opacity: 0.7;
+}
+
+p{
+    width: 700px;
+    padding-left: 28%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 20px;
+}
+#table{
+    background-color: darkred;
+    padding-top: 0.5%;
+}
+
+#conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 120px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+table{
+    margin: 40px auto;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    border-radius: 6px;
+}
+
+.descricao{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#menor {
+    background-color: #141414;
+    padding: 10px;
+    border-radius: 12px;
+    width: 500px;
+    text-align: left;
+    color: white;
+    padding-right: 15%;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    padding: 3%;
+    color: white;
+    border-top: 5px;
+  }
